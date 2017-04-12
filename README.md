@@ -4,7 +4,7 @@
 
 ## TOC
 1. [Swift 中的关键类型](doc/20170407-swift-tutor-类型.md)
-- [依赖简述](doc/20170408-swift-tutor-依赖.md)，了解架构比语言细节重要
+1. [依赖简述](doc/20170408-swift-tutor-依赖.md)，了解架构比语言细节重要
 
 
 ## 资源
