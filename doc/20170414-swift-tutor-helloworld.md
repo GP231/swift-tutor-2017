@@ -6,7 +6,7 @@ Hello World 精髓在于真正写出来并执行，请确保你做得到。
 本文主要涉及：类、方法、属性
 
 ## Hello World
-首先你需要一个目录用于放代码（如 ` ~/tmp/swift-tutor`）。
+首先你需要一个目录用于放代码（如 `~/tmp/swift-tutor`）。
 打开编辑器（如 Atom）输入如下代码，并保存为 `hello.swift`。
 ```swift
 print("Hello World")
@@ -72,7 +72,6 @@ Rose 跟 Jack 说了 Hello：
 ```swift
 class Person {
   var name = ""
-  // 声明方法用 `func` 关键字
   func sayHello(to: Person) {
     print("Hello \(to.name)")
   }
@@ -89,3 +88,5 @@ jack.name = "Jack"
 // 输出：Hello Jack
 rose.sayHello(to: jack)
 ```
+
+这些例子都很简单，但是一定要动手敲一遍，并能说出所有单词、符号的含义。
