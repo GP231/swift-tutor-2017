@@ -13,6 +13,10 @@
   - Windows 则推荐使用 vbox，虚拟一个 linux。
   - 编辑器：示例程序推荐用 Atom 。写应用则是 xcode，或 AppCode。
 1. [Swift Hello World - 类、属性、方法](doc/20170414-swift-tutor-helloworld.md)
+1. 代码中的大括号 `{}`：[作用域 —— 关于类、扩展、嵌套类型、静态字段](doc/20170415-swift-tutor-scope.md)
+1. 代码中的大括号 `{}`：[闭包、ARC、Optional](20170415-swift-tutor-scope-closure.md)
+1. 代码中的小括号 `()`：[元组 —— 方法参数、返回值](doc/20170416-swift-tuple.md)
+1. 代码中的中括号 `[]`：[集合类型](doc/20170416-swift-collectiontype.md)
 
 ## 资源
 - [doc on swift.org](https://swift.org/documentation)
