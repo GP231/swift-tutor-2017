@@ -7,7 +7,9 @@ class Person {
   // 类作用域开始
 
   var name = ""
-  func sayHello(to: Person) { /* 方法作用域 */ }
+  func sayHello(to: Person) {
+    // 方法作用域
+  }
 
   // 类作用域结束
 }
@@ -69,9 +71,7 @@ class Rect {
   var height = 20
   // 定义一个计算属性
   var area: Int {
-    get {
-      return width * height
-    }
+    get { return width * height }
   }
 }
 ```
@@ -96,7 +96,9 @@ class Rect {
 
 // 在扩展中定义计算属性
 extension Rect {
-  var area: Int { get { return width * height } }
+  var area: Int {
+    get { return width * height }
+  }
 }
 ```
 
@@ -112,6 +114,20 @@ extension Rect {
 ### 结合作用域理解计算属性、扩展
 规则只有一条，扩展是在 **原有作用域** 内增加的内容；扩展除了本身的目的（提供扩展功能），
 还可以从物理上将代码分开：比如可将计算属性统一放到一个扩展中。逻辑上，类和扩展是属于同一个类的，相互访问没有限制。
+
+#### 举例：使用扩展重构已有代码
+```swift
+class Person {
+  var aNnammeWithTypo = "Jack"
+}
+
+extension Person {
+  var name: String {
+    set { self.aNnammeWithTypo = newValue }
+    get { return aNnammeWithTypo }
+  }
+}
+```
 
 ---
 ## 静态成员
