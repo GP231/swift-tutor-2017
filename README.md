@@ -15,7 +15,12 @@
 1. 代码中的小括号 `()`：[元组 —— 方法参数、返回值](doc/20170416-swift-tuple.md)
 1. 代码中的中括号 `[]`：[集合类型](doc/20170416-swift-collectiontype.md)
 
+---
 ## 示例程序
+### 基础内容
+### 必看内容
+### 超纲内容
+- 用 switch 语句判断多个变量：[switch, let, tuple](other/20170427-switch-let-tuple.md)
 
 ---
 ## 环境配置
